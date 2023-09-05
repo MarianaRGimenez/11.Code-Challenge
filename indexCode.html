@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CodeChallenge- Formulario de Registro</title>
+</head>
+
+<body>
+
+    <form action="https://jsonplaceholder.typicode.com/users" method="post">
+        <h1>CodeChallenge</h1>
+
+        <ul>
+            <li>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+            </li>
+            <li>
+                <label for="apellido"> Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+            </li>
+            <li>
+                <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+                <input type="fecha" id="fecha-nacimiento" type="date" name="fecha-nacimiento" required><br>
+            </li>
+            <button type="button" onclick="postData()">Enviar</button>
+        </ul>
+    </form>
+    <script src="indexCode.js"></script>
+</body>
+
+</html>
